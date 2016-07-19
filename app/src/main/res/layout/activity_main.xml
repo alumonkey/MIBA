@@ -10,30 +10,33 @@
         android:layout_height="45dp"
         android:orientation="horizontal"
         >
-        <ListView
+        <TextView
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:text="赛程"
-            android:textColor="#CCFFFFFF"
+            android:textColor="@color/yellow"
             android:textSize="16sp"
-            ></ListView>
-        <ListView
+            android:gravity="center"
+            ></TextView>
+        <TextView
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:text="排行"
-            android:textColor="#CCFFFFFF"
+            android:textColor="@color/RED"
             android:textSize="16sp"
-            ></ListView>
-        <ListView
+            android:gravity="center"
+            ></TextView>
+        <TextView
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:text="数据"
-            android:textColor="#CCFFFFFF"
+            android:textColor="@color/blue"
             android:textSize="16sp"
-            ></ListView>
+            android:gravity="center"
+            ></TextView>
     </view.ViewPagerIndicator>
 
     <android.support.v4.view.ViewPager

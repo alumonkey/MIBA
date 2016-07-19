@@ -49,7 +49,11 @@ public class MainActivity extends FragmentActivity {
         fragmentPagerAdapter = new FragmentPagerAdapter(getSupportFragmentManager()) {
             @Override
             public Fragment getItem(int position) {
-                return mContent.get(position);
+                switch(position)
+                {
+                    case 0: return new ScheduleFragment();
+                }
+
             }
 
             @Override
